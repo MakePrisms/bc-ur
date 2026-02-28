@@ -1,12 +1,12 @@
 # BC-UR
 
-Fork from `@ngraveio/bc-ur` implementing blockchain commons unified resources in typescript. 
+Fork from `@gandlaf21/bc-ur` which uses Big.js instead of bignumber.js.
 
 ## Installing
 
 To install, run:
 ```bash
-yarn add @gandlaf21/bc-ur
+yarn add @agicash/bc-ur
 ```
 
 ## Quick Start
@@ -14,7 +14,7 @@ yarn add @gandlaf21/bc-ur
 ### Encode a message
 
 ```js
-import {UR, UREncoder} from '@gandlaf21/bc-ur'
+import {UR, UREncoder} from '@agicash/bc-ur'
 
 const message = {any: 'property'}
 const messageBuffer = Buffer.from(JSON.stringify(message))
@@ -52,7 +52,7 @@ while(!stop) {
 ### Decode a message
 
 ```js
-import {URDecoder} from '@gandlaf21/bc-ur'
+import {URDecoder} from '@agicash/bc-ur'
 
 // Create the decoder object
 const decoder = new URDecoder()

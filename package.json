@@ -1,7 +1,9 @@
 {
-  "name": "@jbojcic/bc-ur",
-  "version": "1.1.12",
-  "author": "gandlaf21 <gandlaf@proton.me>",
+  "name": "@agicash/bc-ur",
+  "version": "0.1.0",
+  "publishConfig": {
+    "access": "public"
+  },
   "description": "A JS implementation of the Uniform Resources (UR) specification from Blockchain Commons",
   "license": "MIT",
   "type": "module",
@@ -41,13 +43,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jbojcic1/bc-ur.git"
+    "url": "git+https://github.com/MakePrisms/bc-ur.git"
   },
   "keywords": [
     "bc-ur"
   ],
   "bugs": {
-    "url": "https://github.com/jbojcic1/bc-ur/issues"
+    "url": "https://github.com/MakePrisms/bc-ur/issues"
   },
-  "homepage": "https://github.com/jbojcic1/bc-ur#readme"
+  "homepage": "https://github.com/MakePrisms/bc-ur#readme"
 }
